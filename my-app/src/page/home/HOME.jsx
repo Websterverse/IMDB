@@ -24,8 +24,9 @@ const HOME = () => {
 
             <div className='poster' >
 
-                <Carousel
-                    showThumbs={false}
+                <Carousel  
+                className='crl'
+                    show    Thumbs={false}
                     autoPlay={true}
                     transitionTime={2}
                     infiniteLoop={true}

@@ -6,9 +6,9 @@ const Header = () => {
         <div className='header'>
             <div className='header-left' >
                 <Link to="/"   ><img className='icon_logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="IMDB" /></Link>
-                <Link to="/movies/popular" >POPULAR</Link>
-                <Link to="/movies/top_rated" >TOP RATED</Link>
-                <Link to="/movies/upcoming" >UPCOMING</Link>
+                <Link className='test'  to="/movies/popular" >POPULAR</Link>
+                <Link className='test'  to="/movies/top_rated" >TOP RATED</Link>
+                <Link className='test  tests '  to="/movies/upcoming" >UPCOMING</Link>
 
             </div>
 

@@ -4,9 +4,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
 import MovieList from '../../components/movieslist/MOVIESLIST';
-// import MOVIESLIST from ""
-// import MOVIELIST from "../src/components/movieslist/MOVIESLIST"
-// import HELLO from ""
 const HOME = () => {
 
     const [popularity, setpopularity] = useState([])

@@ -1,27 +1,52 @@
-.movie__list {
+
+ .movie__list {
     padding: 0 3rem 3rem 3rem;
 }
 
 .list__title {
-font-size: 1.75rem;
-margin:  2.5rem;
+    font-size: 1.75rem;
+    margin: 2.5rem;
 }
 
 .list__card {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
-   
-.movie__list{
-width: 100%;
-height: 100%;
+    .movie__list {
+    
+        width: 100%;
+        height: 100%;
+        padding: 0 1rem 1rem 1rem; /* Adjust padding for smaller screens */
+    }
 
+    .list__title {
+        /* color: transparent; */
+padding-top: 50px;
+        font-size: 1.5rem;
+        margin: 1.5rem; /* Reduce margin for smaller screens */
+    }
 
+    .list__card {
+        flex-direction: column; /* Stack cards vertically */
+    }
 }
 
+@media only screen and (max-width: 375px) {
+    .movie__list {
+        padding: 0 0.5rem 0.5rem 0.5rem; /* Further adjust padding for 375px width */
+    }
 
-  }
+    .list__title {
+        
+        font-size: 1.25rem; /* Smaller font size for the title */
+        margin: 1rem; /* Smaller margin for the title */
+    }
 
+    .list__card {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center cards */
+    }
+}
